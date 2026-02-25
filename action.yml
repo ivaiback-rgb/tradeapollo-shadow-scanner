@@ -1,0 +1,9 @@
+name: 'TradeApollo EU AI Act Scanner'
+description: 'Detects unauthorized Shadow AI models and exposed API keys to prevent Article 101 regulatory fines.'
+author: 'TradeApollo'
+branding:
+  icon: 'shield'
+  color: 'red'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
